@@ -1,9 +1,9 @@
 # Stock Analysis
 ## Overview of Project
 ### Purpose and Background
-The purpose of this project was to take code written in previous modules to analyze stock data for 12 different companies, and refactor it so that it can scale with substantial increases in data.
+The purpose of this project was to take code written in previous modules that analyzes stock data for 12 different companies, and refactor it so that it can scale with substantial increases in data.
 
-The worksheet contains 2017 and 2018 data for 12 different companies. The companies are represented as stock tickers, and the open, close, high, and low, as well as the volume are represented over the span of each year. The goal is to analyze the total volume and return on investment for each company. 
+The worksheet contains 2017 and 2018 data for 12 different companies. The companies are represented as stock tickers, and the data provide is the open, close, high, and low, as well as the volumeover the span of each year. The goal is to analyze the total volume and return on investment for each company. 
 
 ## Results
 ### Analysis
@@ -57,6 +57,13 @@ I started the analysis by ensuring that the code for the input box, the ticker a
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
         
     Next i
+<p align="left">
+  <img src="https://github.com/armyofkittens/stock-analysis/blob/main/Resources/All%20Stocks%20Analysis%202017.png" width="700"/>
+</p>
+
+<p align="left">
+  <img src="https://github.com/armyofkittens/stock-analysis/blob/main/Resources/All%20Stocks%20Analysis%202018.png" width="700"/>
+</p>
 
 ## Summary
 ### Advantages and Disadvantages of Refactoring Code
@@ -67,16 +74,24 @@ There were huge advantages to refactoring the code. My original script ran in .8
 
 Before Refactor 2017
 
-(https://github.com/armyofkittens/stock-analysis/blob/main/Resources/elapsed%202017.png)
+<p align="left">
+  <img src="https://github.com/armyofkittens/stock-analysis/blob/main/Resources/elapsed%202017.png" width="350"/>
+</p>
 
 After Refactor 2017
 
-![VBA 2018 Screenshot](https://github.com/armyofkittens/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+<p align="left">
+  <img src="https://github.com/armyofkittens/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png" width="350"/>
+</p>
 
 Before Refactor 2018
 
-![VBA 2017 Screenshot](https://github.com/armyofkittens/stock-analysis/blob/main/Resources/elapsed%202018.png)
+<p align="left">
+  <img src="https://github.com/armyofkittens/stock-analysis/blob/main/Resources/elapsed%202018.png" width="350"/>
+</p>
 
 After Refactor 2018
 
-![VBA 2018 Screenshot](https://github.com/armyofkittens/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+<p align="left">
+  <img src="https://github.com/armyofkittens/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png" width="350"/>
+</p>
