@@ -57,6 +57,8 @@ I started the analysis by ensuring that the code for the input box, ticker array
         Cells(4 + i, 3).Value = tickerEndingPrices(i) / tickerStartingPrices(i) - 1
         
     Next i
+    
+   Results after running the code for both 2017 and 2018
 <p align="left">
   <img src="https://github.com/armyofkittens/stock-analysis/blob/main/Resources/All%20Stocks%20Analysis%202017.png" width="700"/>
 </p>
