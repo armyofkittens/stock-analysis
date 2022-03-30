@@ -9,7 +9,7 @@ The worksheet contains 2017 and 2018 data for 12 different companies. The compan
 ### Analysis
 I started the analysis by ensuring that the code for the input box, the ticker array, the timers, and all formatting were in place beforehand. I compared the script to the first allstocksanalysis to make sure that it was correct. I then wrote code in order for each line in the instructions, and began running the code line by line to make sure there were no errors. Example of refactored code:
 
-'1a) Create a ticker Index
+    '1a) Create a ticker Index
         'using Dim to assign variable 0 to tickerIndex as an Integer since it's a whole number
     Dim tickerIndex As Integer
 
@@ -64,3 +64,7 @@ One of the things I noticed about refactoring the code is that it makes you thin
 
 ### Conclusion on Refactoring Code
 There were huge advantages to refactoring the code. My original script ran in .8 seconds where as my refactored code runs it almost  8 times faster. What I believe caused this is that the calls to the various arrays were done by each individual for loop, rather than within nested for loops. Refactoring the code and lowering the latency gives the subroutine more headspace in the future to analyze even larger pools of stock data amongst a broader range of companies. 
+
+![VBA 2017 Screenshot](https://github.com/caseychen3605/stock-analysis/blob/master/Resources/VBA_Challenge_2017.PNG)
+
+![VBA 2018 Screenshot](https://github.com/caseychen3605/stock-analysis/blob/master/Resources/VBA_Challenge_2018.PNG)
