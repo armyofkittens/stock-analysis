@@ -3,11 +3,11 @@
 ### Purpose and Background
 The purpose of this project was to take code written in previous modules that analyzes stock data for 12 different companies, and refactor it so that it can scale with substantial increases in data.
 
-The worksheet contains 2017 and 2018 data for 12 different companies. The companies are represented as stock tickers, and the data provide is the open, close, high, and low, as well as the volumeover the span of each year. The goal is to analyze the total volume and return on investment for each company. 
+The worksheet contains 2017 and 2018 data for 12 different companies. The companies are represented as stock tickers, and the data provide is the open, close, high, and low, as well as the volume over the span of each year. The goal is to analyze the total volume and return on investment for each company. 
 
 ## Results
 ### Analysis
-I started the analysis by ensuring that the code for the input box, the ticker array, the timers, and all formatting were in place beforehand. I compared the script to the first allstocksanalysis to make sure that it was correct. I then wrote code in order for each line in the instructions, and began running the code line by line to make sure there were no errors. Example of refactored code:
+I started the analysis by ensuring that the code for the input box, ticker array, timers, and all formatting were in place beforehand. I compared the script to the first allstocksanalysis to make sure that it was correct. I then wrote code in order for each line in the instructions, and began running the code line by line to make sure there were no bugs. Example of refactored code:
 
     '1a) Create a ticker Index
         'using Dim to assign variable 0 to tickerIndex as an Integer since it's a whole number
@@ -67,10 +67,10 @@ I started the analysis by ensuring that the code for the input box, the ticker a
 
 ## Summary
 ### Advantages and Disadvantages of Refactoring Code
-One of the things I noticed about refactoring the code is that it makes you think twice about every line, and if it's the most efficient way of performing that action. Consequently it also lead to me figuring out new ways to perform the same action. This can also lead to some disadvantages as even though you have discovered a new way of performing the same action, it may add additional latency to the subroutine. 
+One of the things I noticed about refactoring the code is that it makes you think twice about every line written, and if it's the most efficient way of performing that action. Consequently it also lead to me figuring out new ways to perform the same action. This can also lead to some disadvantages as even though you have discovered a new way of performing the same action, it may add additional latency to the subroutine. 
 
 ### Conclusion on Refactoring Code
-There were huge advantages to refactoring the code. My original script ran in .8 seconds where as my refactored code runs it almost  8 times faster. What I believe caused this is that the calls to the various arrays were done by each individual for loop, rather than within nested for loops. Refactoring the code and lowering the latency gives the subroutine more headspace in the future to analyze even larger pools of stock data amongst a broader range of companies. 
+There were huge advantages to refactoring the code. My original script ran in .8 seconds where as my refactored code runs it almost 8 times faster. What I believe caused this is that the calls to the various arrays were done by each individual for loop, rather than within nested for loops. Refactoring the code and lowering the latency gives the subroutine more headspace in the future to analyze even larger pools of stock data amongst a broader range of companies. 
 
 Before Refactor 2017
 
