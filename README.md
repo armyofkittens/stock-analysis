@@ -65,6 +65,18 @@ One of the things I noticed about refactoring the code is that it makes you thin
 ### Conclusion on Refactoring Code
 There were huge advantages to refactoring the code. My original script ran in .8 seconds where as my refactored code runs it almost  8 times faster. What I believe caused this is that the calls to the various arrays were done by each individual for loop, rather than within nested for loops. Refactoring the code and lowering the latency gives the subroutine more headspace in the future to analyze even larger pools of stock data amongst a broader range of companies. 
 
-![VBA 2017 Screenshot](https://github.com/caseychen3605/stock-analysis/blob/master/Resources/VBA_Challenge_2017.PNG)
+Before Refactor 2017
 
-![VBA 2018 Screenshot](https://github.com/caseychen3605/stock-analysis/blob/master/Resources/VBA_Challenge_2018.PNG)
+(https://github.com/armyofkittens/stock-analysis/blob/main/Resources/elapsed%202017.png)
+
+After Refactor 2017
+
+![VBA 2018 Screenshot](https://github.com/armyofkittens/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
+Before Refactor 2018
+
+![VBA 2017 Screenshot](https://github.com/armyofkittens/stock-analysis/blob/main/Resources/elapsed%202018.png)
+
+After Refactor 2018
+
+![VBA 2018 Screenshot](https://github.com/armyofkittens/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
